@@ -11,6 +11,8 @@ public class SubRep implements ICipher  {
     private String name = "Subrep";
     private String mapName = "rot13";
 
+
+    // autowire the real implementation
     @Autowired
     private SubstitutionRepository thisRepo;
 
